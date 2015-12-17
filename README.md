@@ -1,2 +1,2 @@
 # ts3-sq-api
-This repository is about an TS3 Server Quary API, written in JAVA
+This repository is about a TS3 Server Query API, written in JAVA.
