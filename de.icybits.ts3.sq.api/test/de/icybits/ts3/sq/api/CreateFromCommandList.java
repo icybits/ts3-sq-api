@@ -7,8 +7,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import de.icybits.ts3.sq.api.basic.Command;
-
 /**
  * @author Iceac
  *
