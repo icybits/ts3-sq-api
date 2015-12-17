@@ -42,7 +42,7 @@ public class CommandTests {
 	@Before
 	public void setUp() throws Exception {
 		telnetClient = new BasicTelnetConnector();
-		client = new TS3Client(telnetClient, "eagle-flight-va.dyndns.org", 10011);
+		client = new TS3Client(telnetClient, "", 10011);
 	}
 
 	@After
@@ -68,7 +68,7 @@ public class CommandTests {
 		} catch (InterruptedException e) {
 			LOGGER.log(Level.SEVERE, "JUnit interrupted?", e);
 		}
-		IResponse loginResponse = client.execute(new LoginCommand("serveradmin", "IFMJvHn5"));
+		IResponse loginResponse = client.execute(new LoginCommand("serveradmin", ""));
 		if (loginResponse != null) {
 			fail("response on login");
 		} else {
