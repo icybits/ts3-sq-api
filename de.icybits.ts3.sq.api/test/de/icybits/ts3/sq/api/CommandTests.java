@@ -10,9 +10,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import de.icybits.ts3.sq.api.basic.BasicTelnetConnector;
 import de.icybits.ts3.sq.api.basic.Response;
 import de.icybits.ts3.sq.api.basic.interfaces.IResponse;
+import de.icybits.ts3.sq.api.basic.interfaces.ITS3Connector;
 import de.icybits.ts3.sq.api.client.TS3Client;
 import de.icybits.ts3.sq.api.commands.BindinglistCommand;
 import de.icybits.ts3.sq.api.commands.HelpCommand;
@@ -37,12 +37,12 @@ public class CommandTests {
 
 	private static final Logger LOGGER = Logger.getLogger(CommandTests.class.getName());
 	TS3Client client = null;
-	BasicTelnetConnector telnetClient = null;
+	ITS3Connector telnetClient = null;
 
 	@Before
 	public void setUp() throws Exception {
-		telnetClient = new BasicTelnetConnector();
-		client = new TS3Client(telnetClient, "", 10011);
+//		telnetClient = new JUnitTestConnector();
+		client = new TS3Client(telnetClient, "www.test-host.de", 10011);
 	}
 
 	@After
