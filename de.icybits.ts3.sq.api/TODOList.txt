@@ -1,3 +1,0 @@
-- Restliche Events müssen noch programmiert werden
-- Restliche Commands müssen noch implementiert werden
-- JUnit Tests müss noch zum testen der commands und des TS3 Clienten erstellt werden.
