@@ -498,7 +498,7 @@ public enum Permissions {
 	I_NEEDED_MODIFY_POWER_FT_NEEDED_DIRECTORY_CREATE_POWER(33012, ""),
 	I_NEEDED_MODIFY_POWER_FT_QUOTA_MB_DOWNLOAD_PER_CLIENT(33013, ""),
 	I_NEEDED_MODIFY_POWER_FT_QUOTA_MB_UPLOAD_PER_CLIENT(33014, "");
-	
+
 	private int id;
 	private String description;
 
@@ -513,5 +513,10 @@ public enum Permissions {
 
 	public String getDescription() {
 		return this.description;
+	}
+
+	@Override
+	public String toString() {
+		return this.name().toLowerCase();
 	}
 }
