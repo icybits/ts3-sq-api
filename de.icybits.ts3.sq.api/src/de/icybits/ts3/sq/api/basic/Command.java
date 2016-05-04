@@ -1,8 +1,8 @@
 package de.icybits.ts3.sq.api.basic;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 import de.icybits.ts3.sq.api.basic.interfaces.ICommand;
 import de.icybits.ts3.sq.api.basic.interfaces.IParameter;
@@ -16,7 +16,7 @@ public class Command implements ICommand {
 	private static final Permissions[] EMPTY_PERMISSIONS = new Permissions[0];
 
 	protected String name;
-	protected List<String> optionList = new ArrayList<String>();
+	protected Set<String> optionList = new HashSet<String>();
 	protected HashMap<String, IParameter<?>> parameterMap = new HashMap<String, IParameter<?>>();
 
 	public Command(String name) {
@@ -44,13 +44,13 @@ public class Command implements ICommand {
 	}
 
 	@Override
-	public List<String> getOptionList() {
-		return new ArrayList<String>(optionList);
+	public Set<String> getOptions() {
+		return new HashSet<String>(optionList);
 	}
 
 	@Override
-	public List<IParameter<?>> getParameterList() {
-		return new ArrayList<IParameter<?>>(parameterMap.values());
+	public Set<IParameter<?>> getParameters() {
+		return new HashSet<IParameter<?>>(parameterMap.values());
 	}
 
 	@Override

@@ -102,7 +102,7 @@ public class TS3Client extends Thread implements INotifyTypes {
 			throw new IllegalCommandException(Messages.getString("TS3Client.07") //$NON-NLS-1$
 					+ command.getName());
 		}
-		Iterator<IParameter<?>> parameterIterator = command.getParameterList().iterator();
+		Iterator<IParameter<?>> parameterIterator = command.getParameters().iterator();
 		while (parameterIterator.hasNext()) {
 			IParameter<?> parameter = parameterIterator.next();
 			if (checkWord(parameter.getName())) {
@@ -130,7 +130,7 @@ public class TS3Client extends Thread implements INotifyTypes {
 						+ parameter.getName());
 			}
 		}
-		Iterator<String> optionIterator = command.getOptionList().iterator();
+		Iterator<String> optionIterator = command.getOptions().iterator();
 		while (optionIterator.hasNext()) {
 			String option = optionIterator.next();
 			if (checkWord(option)) {

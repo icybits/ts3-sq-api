@@ -14,8 +14,7 @@ import java.nio.charset.UnsupportedCharsetException;
 import de.icybits.ts3.sq.api.basic.interfaces.ITS3Connector;
 
 /**
- * The Basic telnet connector is an unsecured connection to the server query.
- * <br>
+ * The Basic telnet connector is an unsecured connection to the server query. <br>
  * It is implemented as easy as possible, so it may contain bugs.
  *
  * @author Alias: Iceac Sarutobi
@@ -31,24 +30,21 @@ public class BasicTelnetConnector implements ITS3Connector {
 	 * Telnet connector with UTF-8 encoding
 	 *
 	 * @throws UnsupportedCharsetException
-	 *           If no support for the UTF-8 charset is available in this instance
-	 *           of the Java virtual machine
+	 *           If no support for the UTF-8 charset is available in this instance of the Java virtual machine
 	 */
 	public BasicTelnetConnector() {
 		this(null);
 	}
 
 	/**
-	 * Telnet connector with given character encoding. If character encoding is
-	 * null, UTF-8 encoding is set.
+	 * Telnet connector with given character encoding. If character encoding is null, UTF-8 encoding is set.
 	 *
 	 * @param charsetName
 	 *          The name of the preferred character encoding
 	 * @throws IllegalCharsetNameException
 	 *           If the given charset name is illegal
 	 * @throws UnsupportedCharsetException
-	 *           If no support for the named charset is available in this instance
-	 *           of the Java virtual machine
+	 *           If no support for the named charset is available in this instance of the Java virtual machine
 	 */
 	public BasicTelnetConnector(String charsetName) {
 		if (charset != null) {
@@ -71,8 +67,7 @@ public class BasicTelnetConnector implements ITS3Connector {
 	/*
 	 * (non-Javadoc)
 	 *
-	 * @see de.icybits.ts3.sq.api.basic.interfaces.ITS3Connector#connect(java.net.
-	 * InetAddress, int)
+	 * @see de.icybits.ts3.sq.api.basic.interfaces.ITS3Connector#connect(java.net. InetAddress, int)
 	 */
 	@Override
 	public void connect(InetAddress address, int port) throws IOException {
@@ -115,7 +110,7 @@ public class BasicTelnetConnector implements ITS3Connector {
 	public String resetInput() throws IOException {
 		StringBuilder builder = new StringBuilder();
 		while (hasInput()) {
-			builder.append(bufferedReader.readLine());
+			builder.append(receive());
 			builder.append('\n');
 		}
 		return builder.toString();
@@ -124,8 +119,7 @@ public class BasicTelnetConnector implements ITS3Connector {
 	/*
 	 * (non-Javadoc)
 	 *
-	 * @see
-	 * de.icybits.ts3.sq.api.basic.interfaces.ITS3Connector#send(java.lang.String)
+	 * @see de.icybits.ts3.sq.api.basic.interfaces.ITS3Connector#send(java.lang.String)
 	 */
 	@Override
 	public void send(String string) throws IOException {
