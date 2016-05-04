@@ -14,7 +14,7 @@ import de.icybits.ts3.sq.api.enums.Permissions;
 public class Command implements ICommand {
 
 	private static final Permissions[] EMPTY_PERMISSIONS = new Permissions[0];
-	
+
 	protected String name;
 	protected List<String> optionList = new ArrayList<String>();
 	protected HashMap<String, IParameter<?>> parameterMap = new HashMap<String, IParameter<?>>();
@@ -57,7 +57,7 @@ public class Command implements ICommand {
 	public Permissions[] getPermissions() {
 		return EMPTY_PERMISSIONS;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		return name.hashCode() + parameterMap.hashCode() + optionList.hashCode();
@@ -65,7 +65,11 @@ public class Command implements ICommand {
 
 	protected void setParameter(IParameter<?> parameter) {
 		if (parameter != null) {
-			parameterMap.put(parameter.getName(), parameter);
+			if (parameter.getValue() != null) {
+				parameterMap.put(parameter.getName(), parameter);
+			} else {
+				parameterMap.remove(parameter.getName());
+			}
 		}
 	}
 

@@ -107,21 +107,23 @@ public class TS3Client extends Thread implements INotifyTypes {
 			IParameter<?> parameter = parameterIterator.next();
 			if (checkWord(parameter.getName())) {
 				builder.append(" "); //$NON-NLS-1$
-				builder.append(parameter.getName());
-				if (parameter.getValue() != null) {
+				if (parameter.getValue() != null && !parameter.getValue().toString().isEmpty()) {
+					builder.append(parameter.getName());
+					builder.append("="); //$NON-NLS-1$
 					if (parameter.getValue() instanceof List<?>) {
 						Iterator<?> valueIterator = ((List<?>) parameter.getValue()).iterator();
-						builder.append("="); //$NON-NLS-1$
 						while (valueIterator.hasNext()) {
 							builder.append(valueIterator.next());
 							if (valueIterator.hasNext()) {
 								builder.append("|"); //$NON-NLS-1$
 							}
 						}
-					} else if (!parameter.getValue().toString().isEmpty()) {
-						builder.append("="); //$NON-NLS-1$
+					} else {
 						builder.append(Util.toTS3String(parameter.getValue().toString()));
 					}
+				} else {
+					throw new IllegalCommandException(Messages.getString("TS3Client.19") //$NON-NLS-1$
+							+ parameter.getName());
 				}
 			} else {
 				throw new IllegalCommandException(Messages.getString("TS3Client.08") //$NON-NLS-1$
@@ -143,8 +145,7 @@ public class TS3Client extends Thread implements INotifyTypes {
 		return builder.toString();
 	}
 
-	public synchronized IResponse execute(ICommand command)
-			throws IOException, ErrorException, ParseResponseException, IllegalCommandException {
+	public synchronized IResponse execute(ICommand command) throws IOException, ErrorException, ParseResponseException, IllegalCommandException {
 		try {
 			client.send(createTS3CommandString(command));
 		} catch (IOException e) {
@@ -195,12 +196,12 @@ public class TS3Client extends Thread implements INotifyTypes {
 		LOGGER.log(Level.INFO, Messages.getString("TS3Client.15") + eventType); //$NON-NLS-1$
 		NotifyEvent event = null;
 		switch (eventType) {
-		case NOTIFY_CLIENT_ENTER_VIEW_NAME:
-			event = new NotifyClientEnterView(input);
-			break;
-		case NOTIFY_CLIENT_LEFT_VIEW_NAME:
-			event = new NotifyClientLeftView(input);
-			break;
+			case NOTIFY_CLIENT_ENTER_VIEW_NAME :
+				event = new NotifyClientEnterView(input);
+				break;
+			case NOTIFY_CLIENT_LEFT_VIEW_NAME :
+				event = new NotifyClientLeftView(input);
+				break;
 		}
 		if (event != null) {
 			Iterator<NotifyListener> iterator = notifyer.iterator();
@@ -254,13 +255,13 @@ public class TS3Client extends Thread implements INotifyTypes {
 						type = input;
 					}
 					switch (type) {
-					case NOTIFY_CLIENT_ENTER_VIEW_NAME:
-					case NOTIFY_CLIENT_LEFT_VIEW_NAME:
-						fireNotifyEvent(type, input);
-						break;
-					default:
-						addResponseToQueue(input);
-						break;
+						case NOTIFY_CLIENT_ENTER_VIEW_NAME :
+						case NOTIFY_CLIENT_LEFT_VIEW_NAME :
+							fireNotifyEvent(type, input);
+							break;
+						default :
+							addResponseToQueue(input);
+							break;
 					}
 				}
 			} catch (IOException e) {
