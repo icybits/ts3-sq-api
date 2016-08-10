@@ -72,4 +72,8 @@ public class Util {
 		ts3String = ts3String.replace("\011", "\\v");
 		return ts3String;
 	}
+
+	public static Integer booleanToNumber(Boolean value) {
+		return value ? 1 : 0;
+	}
 }

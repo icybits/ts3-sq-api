@@ -1,5 +1,6 @@
 package de.icybits.ts3.sq.api.commands;
 import de.icybits.ts3.sq.api.basic.Command;
+import de.icybits.ts3.sq.api.basic.parameter.ParameterBooleanValue;
 import de.icybits.ts3.sq.api.basic.parameter.ParameterIntegerValue;
 import de.icybits.ts3.sq.api.enums.Permissions;
 import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
@@ -25,10 +26,7 @@ public class ChanneldeleteCommand extends Command
 	public ChanneldeleteCommand(int cid, boolean force) {
 		super(COMMAND_CHANNELDELETE);
 		setParameter(new ParameterIntegerValue(CID, cid));
-		if(force)
-			setParameter(new ParameterIntegerValue(FORCE, 1));
-		else 
-			setParameter(new ParameterIntegerValue(FORCE, 0));
+		setParameter(new ParameterBooleanValue(FORCE, force));
 	}
 	
 	@Override

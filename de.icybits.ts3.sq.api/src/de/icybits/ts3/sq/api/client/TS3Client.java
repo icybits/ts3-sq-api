@@ -118,6 +118,8 @@ public class TS3Client extends Thread implements INotifyTypes {
 								builder.append("|"); //$NON-NLS-1$
 							}
 						}
+					} else if (parameter.getValue() instanceof Boolean) {
+						builder.append(Util.booleanToNumber((Boolean) parameter.getValue()));
 					} else {
 						builder.append(Util.toTS3String(parameter.getValue().toString()));
 					}

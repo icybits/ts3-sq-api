@@ -14,4 +14,5 @@ public class ParameterBooleanValue extends Parameter<Boolean> {
 	public ParameterBooleanValue(String name, String value) {
 		super(name, (Integer.parseInt(value) > 0 ? true : false));
 	}
+
 }
