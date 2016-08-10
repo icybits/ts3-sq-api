@@ -7,7 +7,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 /**
  * delete a ban rule
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class BandelCommand extends Command 

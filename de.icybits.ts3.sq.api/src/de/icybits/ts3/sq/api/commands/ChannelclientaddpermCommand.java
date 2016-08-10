@@ -9,7 +9,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 /**
  * assign permission to channel-client combi
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class ChannelclientaddpermCommand extends Command

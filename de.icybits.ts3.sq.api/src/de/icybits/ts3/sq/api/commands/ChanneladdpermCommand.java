@@ -11,7 +11,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 /**
  * assign permission to channel
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class ChanneladdpermCommand extends Command 

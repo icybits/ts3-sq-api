@@ -12,7 +12,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
  * number, the file transfer port, default group IDs, etc. For detailed
  * information, see Server Instance Properties.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class InstanceinfoCommand extends Command
 		implements

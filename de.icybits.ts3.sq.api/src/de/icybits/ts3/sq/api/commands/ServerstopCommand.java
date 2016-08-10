@@ -11,7 +11,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
  * you're able to stop either your own virtual server only or all virtual
  * servers in the server instance.
  *
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServerstopCommand extends Command
 		implements

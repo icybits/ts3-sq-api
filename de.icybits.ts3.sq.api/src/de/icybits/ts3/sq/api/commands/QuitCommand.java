@@ -7,7 +7,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * Closes the ServerQuery connection to the TeamSpeak 3 Server instance.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class QuitCommand extends Command implements ITS3CommandNames {
 

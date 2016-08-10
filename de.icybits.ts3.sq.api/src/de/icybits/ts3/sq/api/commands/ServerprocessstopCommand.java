@@ -7,7 +7,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * Stops the entire TeamSpeak 3 Server instance by shutting down the process.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class ServerprocessstopCommand extends Command
 		implements

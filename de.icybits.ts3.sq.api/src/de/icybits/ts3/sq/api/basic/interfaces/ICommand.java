@@ -8,7 +8,7 @@ import de.icybits.ts3.sq.api.enums.Permissions;
  * The ICommand interface defines the getter methods for the Command name the command parameters and the command options. A command parameters is a name, value
  * pair. A command option is a single word.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public interface ICommand {
 

@@ -6,7 +6,7 @@ import de.icybits.ts3.sq.api.basic.interfaces.IResponse;
  * This class implements the IResponse interface. An instance of this class is
  * an response with the give response string.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class Response implements IResponse {
 

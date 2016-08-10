@@ -16,7 +16,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
  * its ID. The optional type parameter can be used to create ServerQuery groups
  * and template groups. For detailed information, see {@link ITS3Definitions}.
  *
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServergroupaddCommand extends Command
 		implements

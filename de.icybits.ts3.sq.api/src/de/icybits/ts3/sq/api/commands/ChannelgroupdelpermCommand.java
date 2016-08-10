@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * remove permission from channel group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelgroupdelpermCommand extends Command
 		implements

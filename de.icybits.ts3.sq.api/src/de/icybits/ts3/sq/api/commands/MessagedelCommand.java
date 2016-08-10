@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * delete an offline message from your inbox
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class MessagedelCommand extends Command implements ITS3CommandNames {
 	public MessagedelCommand() {

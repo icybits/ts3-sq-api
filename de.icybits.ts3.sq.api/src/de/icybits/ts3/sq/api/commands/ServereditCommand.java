@@ -21,7 +21,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3VirtualServerProperties;
  * <p>
  * For detailed information, see {@link ITS3VirtualServerProperties}.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class ServereditCommand extends Command
 		implements

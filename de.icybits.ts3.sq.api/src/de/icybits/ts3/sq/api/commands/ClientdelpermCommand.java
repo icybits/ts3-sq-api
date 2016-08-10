@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * remove permission from client
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientdelpermCommand extends Command implements ITS3CommandNames {
 	public ClientdelpermCommand() {

@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find permission ID by name
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class PermidgetbynameCommand extends Command
 		implements

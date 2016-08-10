@@ -3,7 +3,7 @@ package de.icybits.ts3.sq.api.enums;
 /**
  * An enumeration over (all?) permissions of TS3.
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public enum Permissions {
 	B_SERVERINSTANCE_HELP_VIEW(1, "Retrieve information about ServerQuery commands"),

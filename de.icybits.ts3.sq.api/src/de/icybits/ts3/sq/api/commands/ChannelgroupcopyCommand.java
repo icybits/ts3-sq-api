@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * copy a channel group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelgroupcopyCommand extends Command
 		implements

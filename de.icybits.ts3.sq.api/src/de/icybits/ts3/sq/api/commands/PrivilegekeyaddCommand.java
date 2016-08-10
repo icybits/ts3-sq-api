@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * creates a new privilege key
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class PrivilegekeyaddCommand extends Command
 		implements

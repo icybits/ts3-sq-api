@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * delete client database properties
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientdbdeleteCommand extends Command implements ITS3CommandNames {
 	public ClientdbdeleteCommand() {

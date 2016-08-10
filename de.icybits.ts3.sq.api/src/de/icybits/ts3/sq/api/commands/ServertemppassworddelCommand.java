@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * delete an existing temporary server password
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServertemppassworddelCommand extends Command
 		implements

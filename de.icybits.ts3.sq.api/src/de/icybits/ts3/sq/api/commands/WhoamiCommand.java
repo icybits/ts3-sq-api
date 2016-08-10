@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * display current session info
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class WhoamiCommand extends Command implements ITS3CommandNames {
 	public WhoamiCommand() {

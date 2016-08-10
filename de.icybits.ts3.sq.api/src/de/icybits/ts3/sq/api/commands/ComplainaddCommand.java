@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * create a client complaint
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ComplainaddCommand extends Command implements ITS3CommandNames {
 	public ComplainaddCommand() {

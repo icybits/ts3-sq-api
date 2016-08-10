@@ -8,7 +8,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * list ban rules on a virtual server
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class BanlistCommand extends Command 

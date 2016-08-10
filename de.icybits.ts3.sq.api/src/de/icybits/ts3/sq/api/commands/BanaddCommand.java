@@ -8,7 +8,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 /**
  * create a ban rule
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class BanaddCommand extends Command 

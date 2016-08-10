@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * delete a file
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class FtdeletefileCommand extends Command implements ITS3CommandNames {
 	public FtdeletefileCommand() {

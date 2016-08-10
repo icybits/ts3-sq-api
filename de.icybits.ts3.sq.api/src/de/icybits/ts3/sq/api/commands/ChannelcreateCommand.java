@@ -9,7 +9,7 @@ import de.icybits.ts3.sq.api.properties.ChannelProperties;
 /**
  * create a channel
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class ChannelcreateCommand extends Command 

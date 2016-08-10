@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * add custom entry to log
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class LogaddCommand extends Command implements ITS3CommandNames {
 	public LogaddCommand() {

@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * init a file upload
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class FtinituploadCommand extends Command implements ITS3CommandNames {
 	public FtinituploadCommand() {

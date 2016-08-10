@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * display details about a file
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class FtgetfileinfoCommand extends Command implements ITS3CommandNames {
 	public FtgetfileinfoCommand() {

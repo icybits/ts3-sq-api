@@ -6,7 +6,7 @@ import de.icybits.ts3.sq.api.exception.ParseResponseException;
  * This interface defines that an IResponseFactory can create an IResponse, from
  * a response String.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  * @param <RESPONSE>
  */
 public interface IResponseFactory<RESPONSE extends IResponse> {

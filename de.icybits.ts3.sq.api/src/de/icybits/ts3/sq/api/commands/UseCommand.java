@@ -15,7 +15,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
  * If your database contains multiple virtual servers using the same UDP port,
  * use will select a random virtual server using the specified port.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class UseCommand extends Command
 		implements

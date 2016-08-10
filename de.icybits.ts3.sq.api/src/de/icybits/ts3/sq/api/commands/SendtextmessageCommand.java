@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * send text message
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class SendtextmessageCommand extends Command
 		implements

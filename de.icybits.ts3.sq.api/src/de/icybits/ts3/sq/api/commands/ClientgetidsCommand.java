@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find client IDs by UID
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientgetidsCommand extends Command implements ITS3CommandNames {
 	public ClientgetidsCommand() {

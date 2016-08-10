@@ -7,7 +7,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 
 /**
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class LoginCommand extends Command implements ITS3CommandNames, ITS3ParameterNames {
 

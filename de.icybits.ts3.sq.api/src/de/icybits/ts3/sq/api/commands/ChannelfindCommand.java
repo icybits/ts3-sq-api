@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find channel by name
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelfindCommand extends Command implements ITS3CommandNames {
 	public ChannelfindCommand() {

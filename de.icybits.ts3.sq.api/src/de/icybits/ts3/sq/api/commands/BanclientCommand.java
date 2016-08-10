@@ -9,7 +9,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 /**
  * ban a client
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class BanclientCommand extends Command 

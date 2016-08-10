@@ -8,7 +8,7 @@ import de.icybits.ts3.sq.api.enums.Permissions;
 /**
  * remove permission from channel
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class ChanneldelpermCommand extends Command 

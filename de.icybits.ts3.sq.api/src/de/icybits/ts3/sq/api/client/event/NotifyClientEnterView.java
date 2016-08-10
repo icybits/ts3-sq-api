@@ -12,7 +12,7 @@ import de.icybits.ts3.sq.api.basic.parameter.ParameterStringValue;
  * This class extends NotifyEvent and implements ITS3ClientProperty. An instance
  * of this class is an ClientEnterView event fired by the "TS3 Server Query".
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class NotifyClientEnterView extends NotifyEvent {
 

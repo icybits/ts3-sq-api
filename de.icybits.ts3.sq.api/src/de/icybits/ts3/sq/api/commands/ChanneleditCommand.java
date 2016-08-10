@@ -8,7 +8,7 @@ import de.icybits.ts3.sq.api.properties.ChannelProperties;
 /**
  * change channel properties
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public class ChanneleditCommand extends Command 

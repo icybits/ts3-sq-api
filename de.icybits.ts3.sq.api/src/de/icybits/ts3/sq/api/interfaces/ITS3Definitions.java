@@ -4,7 +4,7 @@ package de.icybits.ts3.sq.api.interfaces;
  * The following enumerations can be used to change the behavior of various
  * ServerQuery commands:
  *
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  */
 public interface ITS3Definitions {
 
@@ -37,7 +37,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum Codec {
 		CODEC_CELT_MONO(3), CODEC_SPEEX_NARROWBAND(0), CODEC_SPEEX_ULTRAWIDEBAND(2), CODEC_SPEEX_WIDEBAND(1);
@@ -77,7 +77,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum CodecEncryptionMode {
 		CODEC_CRYPT_DISABLED(1), CODEC_CRYPT_ENABLED(2), CODEC_CRYPT_INDIVIDUAL(0);
@@ -117,7 +117,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum HostBannerMode {
 		HostMessageMode_IGNOREASPECT(1), HostMessageMode_KEEPASPECT(2), HostMessageMode_NOADJUST(0);
@@ -157,7 +157,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum HostMessageMode {
 		HostMessageMode_LOG(1), HostMessageMode_MODAL(2), HostMessageMode_MODALQUIT(3);
@@ -202,7 +202,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum LogLevel {
 		LogLevel_DEBUG(3), LogLevel_ERROR(1), LogLevel_INFO(4), LogLevel_WARNING(2);
@@ -242,7 +242,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum PermissionGroupDatabaseTypes {
 		PermGroupDBTypeQuery(2), PermGroupDBTypeRegular(1), PermGroupDBTypeTemplate(0);
@@ -292,7 +292,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum PermissionGroupTypes {
 		PermGroupTypeChannel(2), PermGroupTypeChannelClient(4), PermGroupTypeChannelGroup(3), PermGroupTypeGlobalClient(
@@ -328,7 +328,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum ReasonIdentifier {
 		REASON_KICK_CHANNEL(4), REASON_KICK_SERVER(5);
@@ -368,7 +368,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum TextMessageTargetMode {
 		TextMessageTarget_CHANNEL(2), TextMessageTarget_CLIENT(1), TextMessageTarget_SERVER(3);
@@ -403,7 +403,7 @@ public interface ITS3Definitions {
 	 * </tr>
 	 * </table>
 	 * 
-	 * @author iceac
+	 * @author Alias: Iceac Sarutobi
 	 */
 	public enum TokenType {
 		TokenChannelGroup(1), TokenServerGroup(0);

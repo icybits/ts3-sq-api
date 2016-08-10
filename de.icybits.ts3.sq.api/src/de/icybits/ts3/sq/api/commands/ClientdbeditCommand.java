@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * change client database properties
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientdbeditCommand extends Command implements ITS3CommandNames {
 	public ClientdbeditCommand() {

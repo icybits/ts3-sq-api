@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * list all existing temporary server passwords
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServertemppasswordlistCommand extends Command
 		implements

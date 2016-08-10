@@ -14,7 +14,7 @@ import de.icybits.ts3.sq.api.client.event.interfaces.INotifyTypes;
 import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
 
 /**
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class NotifyEvent implements INotifyEvent, ITS3ParameterNames, INotifyTypes {
 

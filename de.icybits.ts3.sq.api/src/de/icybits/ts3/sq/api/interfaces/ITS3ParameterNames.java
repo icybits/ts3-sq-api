@@ -1,7 +1,7 @@
 package de.icybits.ts3.sq.api.interfaces;
 
 /**
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  * @author Saali
  */
 public interface ITS3ParameterNames {

@@ -11,7 +11,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
  * Displays a list of IP addresses used by the server instance on multi-homed
  * machines.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class BindinglistCommand extends Command
 		implements
