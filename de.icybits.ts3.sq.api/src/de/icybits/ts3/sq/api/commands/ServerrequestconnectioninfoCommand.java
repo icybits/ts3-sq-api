@@ -11,7 +11,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
  * Displays detailed connection information about the selected virtual server
  * including uptime, traffic information, etc.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class ServerrequestconnectioninfoCommand extends Command
 		implements

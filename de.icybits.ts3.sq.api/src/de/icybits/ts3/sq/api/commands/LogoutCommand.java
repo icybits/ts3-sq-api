@@ -7,7 +7,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * Deselects the active virtual server and logs out from the server instance.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class LogoutCommand extends Command implements ITS3CommandNames {
 

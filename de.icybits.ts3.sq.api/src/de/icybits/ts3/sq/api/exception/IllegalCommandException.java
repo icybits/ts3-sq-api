@@ -1,7 +1,7 @@
 package de.icybits.ts3.sq.api.exception;
 
 /**
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class IllegalCommandException extends Exception {
 

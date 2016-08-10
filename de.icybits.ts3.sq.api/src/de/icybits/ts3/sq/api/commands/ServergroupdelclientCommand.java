@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * remove client from server group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServergroupdelclientCommand extends Command
 		implements

@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find client nickname by database ID
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientgetnamefromdbidCommand extends Command
 		implements

@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * set a clients channel group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class SetclientchannelgroupCommand extends Command
 		implements

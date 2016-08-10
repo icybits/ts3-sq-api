@@ -11,7 +11,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
  * Displays a list of server groups available. Depending on your permissions,
  * the output may also contain global ServerQuery groups and template groups.
  *
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServergrouplistCommand extends Command
 		implements

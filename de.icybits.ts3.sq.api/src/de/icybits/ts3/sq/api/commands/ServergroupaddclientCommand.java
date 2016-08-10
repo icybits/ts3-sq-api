@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * add client to server group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServergroupaddclientCommand extends Command
 		implements

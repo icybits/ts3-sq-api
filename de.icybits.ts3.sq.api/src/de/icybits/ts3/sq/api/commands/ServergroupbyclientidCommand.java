@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * get all server groups of specified client
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServergroupbyclientidCommand extends Command
 		implements

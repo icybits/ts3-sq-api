@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * move a client
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientmoveCommand extends Command implements ITS3CommandNames {
 	public ClientmoveCommand() {

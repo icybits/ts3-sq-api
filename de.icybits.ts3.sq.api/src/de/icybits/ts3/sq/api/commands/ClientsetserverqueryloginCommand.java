@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * set own login credentials
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientsetserverqueryloginCommand extends Command
 		implements

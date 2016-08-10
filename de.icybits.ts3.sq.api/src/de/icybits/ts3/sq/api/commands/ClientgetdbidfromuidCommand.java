@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find client database ID by UID
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientgetdbidfromuidCommand extends Command
 		implements

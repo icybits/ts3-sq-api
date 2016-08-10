@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * delete an existing privilege key
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class PrivilegekeydeleteCommand extends Command
 		implements

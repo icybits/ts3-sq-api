@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * create a channel
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelcreateCommand extends Command implements ITS3CommandNames {
 	public ChannelcreateCommand() {

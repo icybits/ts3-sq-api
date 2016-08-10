@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * list permissions available
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class PermissionlistCommand extends Command implements ITS3CommandNames {
 	public PermissionlistCommand() {

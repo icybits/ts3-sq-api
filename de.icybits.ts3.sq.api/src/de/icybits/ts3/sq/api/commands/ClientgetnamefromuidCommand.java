@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find client nickname by UID
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientgetnamefromuidCommand extends Command
 		implements

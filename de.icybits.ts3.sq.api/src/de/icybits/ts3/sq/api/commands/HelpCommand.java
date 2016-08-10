@@ -12,7 +12,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
  * Provides information about ServerQuery commands. Used without parameters,
  * help lists and briefly describes every command.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class HelpCommand extends Command
 		implements

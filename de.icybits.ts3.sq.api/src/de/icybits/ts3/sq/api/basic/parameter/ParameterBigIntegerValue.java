@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import de.icybits.ts3.sq.api.basic.Parameter;
 
 /**
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class ParameterBigIntegerValue extends Parameter<BigInteger> {
 

@@ -430,7 +430,7 @@ package de.icybits.ts3.sq.api.interfaces;
  * </tr>
  * </table>
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public interface ITS3VirtualServerProperties {
 

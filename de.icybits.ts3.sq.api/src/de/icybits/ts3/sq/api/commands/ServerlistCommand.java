@@ -27,7 +27,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ParameterNames;
  * client deselects the virtual server, its status will be changed back to
  * offline.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class ServerlistCommand extends Command
 		implements

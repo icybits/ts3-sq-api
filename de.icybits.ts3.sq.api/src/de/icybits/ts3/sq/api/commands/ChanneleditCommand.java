@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * change channel properties
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChanneleditCommand extends Command implements ITS3CommandNames {
 	public ChanneleditCommand() {

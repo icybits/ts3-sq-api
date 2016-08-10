@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * unregister from event notifications
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServernotifyunregisterCommand extends Command
 		implements

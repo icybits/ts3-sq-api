@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find client by nickname
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientfindCommand extends Command implements ITS3CommandNames {
 	public ClientfindCommand() {

@@ -3,7 +3,7 @@ package de.icybits.ts3.sq.api.basic;
 import de.icybits.ts3.sq.api.basic.interfaces.IParameter;
 
 /**
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class Parameter<VALUE> implements IParameter<VALUE> {
 

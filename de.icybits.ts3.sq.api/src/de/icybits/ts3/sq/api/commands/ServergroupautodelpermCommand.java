@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * globally remove permissions from server group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServergroupautodelpermCommand extends Command
 		implements

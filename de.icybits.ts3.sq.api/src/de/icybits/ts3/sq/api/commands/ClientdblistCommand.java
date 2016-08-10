@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * list known client UIDs
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ClientdblistCommand extends Command implements ITS3CommandNames {
 	public ClientdblistCommand() {

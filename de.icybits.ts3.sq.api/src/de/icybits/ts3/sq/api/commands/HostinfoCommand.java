@@ -12,7 +12,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
  * uptime, number of virtual servers online, traffic information, etc. For
  * detailed information, see Server Instance Properties.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class HostinfoCommand extends Command
 		implements

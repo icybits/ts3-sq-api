@@ -1,7 +1,7 @@
 package de.icybits.ts3.sq.api.interfaces;
 
 /**
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  */
 public interface ITS3CommandNames {
 
@@ -136,6 +136,4 @@ public interface ITS3CommandNames {
 	public static final String COMMAND_TOKENUSE = "tokenuse";
 	public static final String COMMAND_VERSION = "version";
 	public static final String COMMAND_WHOAMI = "whoami";
-
-	public String getName();
 }

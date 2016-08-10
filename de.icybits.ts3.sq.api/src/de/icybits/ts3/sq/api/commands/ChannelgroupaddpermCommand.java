@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * assign permission to channel group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelgroupaddpermCommand extends Command
 		implements

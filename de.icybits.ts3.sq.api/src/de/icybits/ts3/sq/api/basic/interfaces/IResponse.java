@@ -5,7 +5,7 @@ package de.icybits.ts3.sq.api.basic.interfaces;
  * this interface normally used by implementations of the IResponseFactory
  * interface.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public interface IResponse {
 

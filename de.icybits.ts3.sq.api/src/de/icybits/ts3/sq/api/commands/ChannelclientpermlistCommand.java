@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * list channel-client specific permissions
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelclientpermlistCommand extends Command
 		implements

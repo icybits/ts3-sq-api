@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * deploy snapshot of a virtual server
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ServersnapshotdeployCommand extends Command
 		implements

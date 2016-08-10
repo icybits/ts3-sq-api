@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * list offline messages from your inbox
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class MessagelistCommand extends Command implements ITS3CommandNames {
 	public MessagelistCommand() {

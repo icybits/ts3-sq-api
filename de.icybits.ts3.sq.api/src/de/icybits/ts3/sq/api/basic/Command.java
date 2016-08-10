@@ -9,7 +9,7 @@ import de.icybits.ts3.sq.api.basic.interfaces.IParameter;
 import de.icybits.ts3.sq.api.enums.Permissions;
 
 /**
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class Command implements ICommand {
 

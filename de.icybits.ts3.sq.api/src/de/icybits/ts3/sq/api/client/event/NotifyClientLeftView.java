@@ -8,7 +8,7 @@ import de.icybits.ts3.sq.api.basic.parameter.ParameterStringValue;
  * This class extends NotifyEvent. An instance of this class is an
  * ClientLeftView event fired by the "TS3 Server Query".
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class NotifyClientLeftView extends NotifyEvent {
 

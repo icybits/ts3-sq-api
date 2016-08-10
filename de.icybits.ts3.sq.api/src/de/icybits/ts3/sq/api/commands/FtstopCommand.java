@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * stop a file transfer
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class FtstopCommand extends Command implements ITS3CommandNames {
 	public FtstopCommand() {

@@ -13,7 +13,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3ServerInstanceProperties;
  * Changes the server instance configuration using given properties. For
  * detailed information, see {@link ITS3ServerInstanceProperties}.
  *
- * @author iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class InstanceeditCommand extends Command
 		implements

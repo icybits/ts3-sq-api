@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * find permission assignments by ID
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class PermfindCommand extends Command implements ITS3CommandNames {
 	public PermfindCommand() {

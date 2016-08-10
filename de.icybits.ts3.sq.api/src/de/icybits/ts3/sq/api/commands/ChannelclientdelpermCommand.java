@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * remove permission from channel-client combi
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelclientdelpermCommand extends Command
 		implements

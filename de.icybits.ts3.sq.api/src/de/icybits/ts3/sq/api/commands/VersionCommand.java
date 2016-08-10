@@ -10,7 +10,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * Displays the servers version information including platform and build number.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class VersionCommand extends Command
 		implements

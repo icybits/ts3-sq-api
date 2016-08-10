@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * rename a channel group
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelgrouprenameCommand extends Command
 		implements

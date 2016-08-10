@@ -4,7 +4,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3CommandNames;
 /**
  * move channel to new parent
  * 
- * @author Iceac
+ * @author Alias: Iceac Sarutobi
  */
 public class ChannelmoveCommand extends Command implements ITS3CommandNames {
 	public ChannelmoveCommand() {

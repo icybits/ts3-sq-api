@@ -13,7 +13,7 @@ import de.icybits.ts3.sq.api.interfaces.ITS3VirtualServerProperties;
  * Displays the database ID of the virtual server running on the UDP port
  * specified by virtualserver_port.
  *
- * @author iceac_000
+ * @author Alias: Iceac Sarutobi
  */
 public class ServeridgetbyportCommand extends Command
 		implements
