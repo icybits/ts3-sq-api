@@ -1,0 +1,44 @@
+package de.icybits.ts3.sq.api.properties;
+
+/**
+ * @author Saali
+ */
+
+import de.icybits.ts3.sq.api.basic.Properties;
+
+public class ServerInstanceProperties<K> extends Properties {
+	
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_GUEST_SERVERQUERY_GROUP = ServerInstancePropertiesInteger.SERVERINSTANCE_GUEST_SERVERQUERY_GROUP;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_TEMPLATE_SERVERADMIN_GROUP = ServerInstancePropertiesInteger.SERVERINSTANCE_TEMPLATE_SERVERADMIN_GROUP;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_FILETRANSFER_PORT = ServerInstancePropertiesInteger.SERVERINSTANCE_FILETRANSFER_PORT;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_MAX_DOWNLOAD_TOTAL_BANDWITDH = ServerInstancePropertiesInteger.SERVERINSTANCE_MAX_DOWNLOAD_TOTAL_BANDWITDH;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_MAX_UPLOAD_TOTAL_BANDWITDH = ServerInstancePropertiesInteger.SERVERINSTANCE_MAX_UPLOAD_TOTAL_BANDWITDH;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_TEMPLATE_SERVERDEFAULT_GROUP = ServerInstancePropertiesInteger.SERVERINSTANCE_TEMPLATE_SERVERDEFAULT_GROUP;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_TEMPLATE_CHANNELDEFAULT_GROUP = ServerInstancePropertiesInteger.SERVERINSTANCE_TEMPLATE_CHANNELDEFAULT_GROUP;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_TEMPLATE_CHANNELADMIN_GROUP = ServerInstancePropertiesInteger.SERVERINSTANCE_TEMPLATE_CHANNELADMIN_GROUP;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_SERVERQUERY_FLOOD_COMMANDS = ServerInstancePropertiesInteger.SERVERINSTANCE_SERVERQUERY_FLOOD_COMMANDS;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_SERVERQUERY_FLOOD_TIME = ServerInstancePropertiesInteger.SERVERINSTANCE_SERVERQUERY_FLOOD_TIME;
+	public static final ServerInstanceProperties<Integer> SERVERINSTANCE_SERVERQUERY_FLOOD_BAN_TIME = ServerInstancePropertiesInteger.SERVERINSTANCE_SERVERQUERY_FLOOD_BAN_TIME;
+	public static final ServerInstanceProperties<Void> INSTANCE_UPTIME = ServerInstancePropertiesVoid.INSTANCE_UPTIME;
+	public static final ServerInstanceProperties<Void> HOST_TIMESTAMP_UTC = ServerInstancePropertiesVoid.HOST_TIMESTAMP_UTC;
+	public static final ServerInstanceProperties<Void> VIRTUALSERVERS_RUNNING_TOTAL = ServerInstancePropertiesVoid.VIRTUALSERVERS_RUNNING_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_FILETRANSFER_BANDWIDTH_SENT =ServerInstancePropertiesVoid.CONNECTION_FILETRANSFER_BANDWIDTH_SENT;
+	public static final ServerInstanceProperties<Void> CONNECTION_FILETRANSFER_BANDWIDTH_RECEIVED = ServerInstancePropertiesVoid.CONNECTION_FILETRANSFER_BANDWIDTH_RECEIVED;
+	public static final ServerInstanceProperties<Void> CONNECTION_PACKETS_SENT_TOTAL = ServerInstancePropertiesVoid.CONNECTION_PACKETS_SENT_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_PACKETS_RECEIVED_TOTAL = ServerInstancePropertiesVoid.CONNECTION_PACKETS_RECEIVED_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_BYTES_SENT_TOTAL = ServerInstancePropertiesVoid.CONNECTION_BYTES_SENT_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_BYTES_RECEIVED_TOTAL = ServerInstancePropertiesVoid.CONNECTION_BYTES_RECEIVED_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_BANDWIDTH_SENT_LAST_SECOND_TOTAL = ServerInstancePropertiesVoid.CONNECTION_BANDWIDTH_SENT_LAST_SECOND_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_BANDWIDTH_RECEIVED_LAST_SECOND_TOTAL = ServerInstancePropertiesVoid.CONNECTION_BANDWIDTH_RECEIVED_LAST_SECOND_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_BANDWIDTH_SENT_LAST_MINUTE_TOTAL = ServerInstancePropertiesVoid.CONNECTION_BANDWIDTH_SENT_LAST_MINUTE_TOTAL;
+	public static final ServerInstanceProperties<Void> CONNECTION_BANDWIDTH_RECEIVED_LAST_MINUTE_TOTAL = ServerInstancePropertiesVoid.CONNECTION_BANDWIDTH_RECEIVED_LAST_MINUTE_TOTAL;
+	public static final ServerInstanceProperties<Void> SERVERINSTANCE_DATABASE_VERSION = ServerInstancePropertiesVoid.SERVERINSTANCE_DATABASE_VERSION;
+	public static final ServerInstanceProperties<Void> VIRTUALSERVERS_TOTAL_MAXCLIENTS = ServerInstancePropertiesVoid.VIRTUALSERVERS_TOTAL_MAXCLIENTS;
+	public static final ServerInstanceProperties<Void> VIRTUALSERVERS_TOTAL_CLIENTS_ONLINE = ServerInstancePropertiesVoid.VIRTUALSERVERS_TOTAL_CLIENTS_ONLINE;
+	public static final ServerInstanceProperties<Void> VIRTUALSERVERS_TOTAL_CHANNELS_ONLINE = ServerInstancePropertiesVoid.VIRTUALSERVERS_TOTAL_CHANNELS_ONLINE;
+	
+	protected ServerInstanceProperties(String name, Boolean changeable) {
+		super(name, changeable);
+	}
+
+}

@@ -2,6 +2,7 @@ package de.icybits.ts3.sq.api.interfaces;
 
 /**
  * @author iceac
+ * @author Saali
  */
 public interface ITS3ParameterNames {
 
@@ -101,6 +102,7 @@ public interface ITS3ParameterNames {
 	public static final String CTID = "ctid";
 	public static final String EVENT = "event";
 	public static final String FLAGS = "flags";
+	public static final String FORCE = "force";
 	public static final String GROUPS = "groups";
 	public static final String ICON = "icon";
 	public static final String ID = "id";
@@ -113,6 +115,7 @@ public interface ITS3ParameterNames {
 	public static final String PERMID = "permid";
 	public static final String PERMSID = "permsid";
 	public static final String PERMVALUE = "permvalue";
+	public static final String PERMSKIP = "permskip";
 	public static final String PID = "pid";
 	public static final String PLATFORM = "platform";
 	public static final String PORT = "port";
